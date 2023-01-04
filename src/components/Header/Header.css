@@ -2,6 +2,9 @@
     background-color: rgb(140, 148, 232);
     display: flex;
     align-items: center;
+    position: sticky; 
+    top: 0; 
+    z-index: 100; /* This will make sure that the header is always on top of the page */
 }
 
 .header_logo {
@@ -9,6 +12,7 @@
     margin: 0 10px;
     margin-top: 10px;
 }
+
 
 .header_nav {
     display: flex;
@@ -30,6 +34,12 @@
 .header_optionLineTwo {
     font-size: 12px;
     font-weight: 800;
+}
+
+.header_optionBasket {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
 }
 
 .header_link {
