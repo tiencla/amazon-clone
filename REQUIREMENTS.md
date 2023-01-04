@@ -15,4 +15,5 @@ Header
 
 Product
 - [X] Title, Price, * Ratings, Add to basket
-- [] useContext to manage state
+- [X] useContext to manage state
+- [X] Add to basket renders
