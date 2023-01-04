@@ -17,3 +17,8 @@ Product
 - [X] Title, Price, * Ratings, Add to basket
 - [X] useContext to manage state
 - [X] Add to basket renders
+
+CheckoutPage
+- [X] Render when add item to basket
+- [X] Remove from basket
+- [X]
