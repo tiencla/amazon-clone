@@ -21,4 +21,9 @@ Product
 CheckoutPage
 - [X] Render when add item to basket
 - [X] Remove from basket
-- [X]
+- [X] Subtotal
+
+Login
+- [X] Create login page/form
+- [X] Set up firebase
+- [X] Firebase authentication email/password

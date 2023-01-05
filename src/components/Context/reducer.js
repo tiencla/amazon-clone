@@ -1,14 +1,6 @@
 export const initialState = {
-  basket: [
-    {
-      id: '12321341',
-      title:
-        'The Lord of the Rings: The Fellowship of the Ring (The Lord of the Rings 1)',
-      price: 15.99,
-      rating: 5,
-      image: 'https://m.media-amazon.com/images/I/41gHG-a2OEL._AC_SY780_.jpg',
-    },
-  ],
+  basket: [],
+  user: null,
 };
 
 export const getBasketTotal = (basket) =>
@@ -17,8 +9,13 @@ export const getBasketTotal = (basket) =>
 
 const reducer = (state, action) => {
   //   console.log(state);
-  console.log(action);
+  // console.log(action);
   switch (action.type) {
+    case 'SET_USER':
+      return {
+        ...state,
+        user: action.user,
+      };
     case 'ADD_TO_BASKET':
       // // Logic for adding item to basket
       return {
